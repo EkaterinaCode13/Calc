@@ -22,7 +22,7 @@ function log(message) {
 }
 
 function calcFontSize(textLength) {
-    var fontSize = Math.round((350 * 1) / textLength);
+    var fontSize = Math.round(350 / textLength);
     return fontSize;
 }
 
